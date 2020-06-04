@@ -1,20 +1,18 @@
 ---
 layout: default
-title: "Ed."
+title: "19th Century Art"
 ---
 <div class="introduction">
   <h1>hi.</h1>
 
-<p>
-  Ed is a <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme designed for textual
-  editors based on <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and
-  focused on legibility, durability, ease and flexibility. Our underlying technology is easy to
-  learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant
-  to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our
-  documentation</a> for installation instructions and more. To learn more about the ideas behind Ed
-  and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To
-  see Ed in action, we've provided some sample minimal editions for you below.
-</p>
+  <p>
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+    layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+    using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web
+    page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web
+    sites still in their infancy.1 Various versions have evolved over the years, sometimes by accident, sometimes on
+    purpose (injected humour and the like).
+  </p>
 </div>
 
 <hr>
@@ -22,13 +20,13 @@ title: "Ed."
 <div class="toc">
   <h2>sample texts</h2>
   <ul class="texts">
-  {% for item in site.texts %}
+    {% for item in site.texts %}
 
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
         {{ item.title }}
       </a>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
 </div>
