@@ -36,4 +36,4 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 
 ## Footnotes
 [^fn1]: The bugle is a small trumpet implicated in the military industrial complex.
-[^fn2]: My favorite part about this image are the masterful brushstrokes.
+[^fn2]: My favorite thing about this image is the masterful brushstrokes.
